@@ -307,8 +307,8 @@ mode "wlan" {
     bindsym Escape mode "default"
 }
 
-
-set $quick_launch "Quick Launch" #mode for launching frequently-used applications quickly
+#mode for launching frequently-used applications quickly
+set $quick_launch "Quick Launch" 
 bindsym $mod+q mode $quick_launch
 mode $quick_launch {
     bindsym w exec chromium; mode "default"
